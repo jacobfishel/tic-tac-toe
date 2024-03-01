@@ -95,7 +95,7 @@ void check_diagonal_x(char nums[3][3], char check_player){
 
 void check_diagonal_y(char nums[3][3], char check_player){
     bool win = false;
-    if(check_player == 'Y'){
+    if(check_player == 'O'){
         if(nums[0][0] == nums[1][1] && nums[1][1] == nums[2][2]){
             win = true;
         } else if(nums[0][2] == nums[1][1] && nums[1][1] == nums[2][0]){
